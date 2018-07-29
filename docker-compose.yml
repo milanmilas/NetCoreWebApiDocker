@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  netcorewebapidockerlinux:
+    image: netcorewebapidockerlinux
+    build:
+      context: .
+      dockerfile: NetCoreWebApiDockerLinux/Dockerfile
